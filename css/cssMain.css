@@ -542,6 +542,7 @@ footer .container .sec p{
   nav a {
     font-size: 9px;
     text-decoration: none;
+    letter-spacing: normal;
     color: #fff;
     border: 1px solid transparent;
     border-radius: 0.3em;
@@ -557,6 +558,7 @@ footer .container .sec p{
     font-size: 10px;
     text-decoration: none;
     color: #fff;
+    letter-spacing: normal;
     border: 1px solid transparent;
     border-radius: 0.3em;
     transition: 0.3s;
@@ -568,6 +570,10 @@ footer .container .sec p{
   font-family: 'Kolker Brush', cursive;
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
+  }
+  #logo {
+    width: 30px;
+    transition: 0.3s;
   }
   .txt{
     height: 50vh;
