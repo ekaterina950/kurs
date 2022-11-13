@@ -57,7 +57,7 @@ nav a {
   border: 1px solid transparent;
   border-radius: 0.3em;
   transition: 0.3s;
-  letter-spacing: 2pxж
+  letter-spacing: 2px;
 }
 .first:hover{
   color: #03a9f4;
@@ -537,4 +537,72 @@ footer .container .sec p{
    justify-content: center;
    width: 500px;
   }
+}
+@media (max-width: 500px) {
+  nav a {
+    font-size: 10px;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 0.3em;
+    transition: 0.3s;
+  }
+  .txt p{
+    text-align: justify;
+    font-family: 'Caveat', cursive;
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Kolker Brush', cursive;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  }
+  .txt{
+    height: 50vh;
+    padding: 50px;
+    width: 500px;
+  }
+  header {
+    font-family: "Comfortaa";
+    justify-content: space-between;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgba(0, 0, 0, 0.21);
+  }
+  .grid .el .name{
+   position: absolute;
+   display:block;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   width: 200px;
+   height: 50px;
+   background: rgba(0, 0, 0, 0.5);
+   z-index: 100;
+   opacity: 1;
+   text-align: center;
+   font-family: "Amatic SC";
+   font-family: 'Caveat', cursive;
+ font-family: 'Comfortaa', cursive;
+ font-family: 'Kolker Brush', cursive;
+ font-family: 'Marck Script', cursive;
+ font-family: 'Roboto', sans-serif;
+   font-size: 15px;
+   color: #fff;
+   font-weight: 500;
+ }
+ .grid .el{
+   display: flex;
+   justify-content: flex-end;
+   align-items: flex-end;
+   height: 150px;
+   width: 200px;
+   border: 1px solid black;
+   background: white;
+   color: black;
+   font-size: 20px;
+   margin: 10px;
+ }
+
 }

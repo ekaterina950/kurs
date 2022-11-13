@@ -358,3 +358,13 @@ footer .container .sec p{
     height: 100vh;
   }
 }
+@media (max-width: 600px) {
+  nav a {
+    font-size: 10px;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 0.3em;
+    transition: 0.3s;
+  }
+}
