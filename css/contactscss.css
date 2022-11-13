@@ -317,4 +317,13 @@ footer .container .sec p{
     border-radius: 0.3em;
     transition: 0.3s;
   }
+  .container .textcontact p{
+    font-size: 15px;
+    padding: 5px;
+    margin: 5px;
+  }
+  #logo {
+    width: 30px;
+    transition: 0.3s;
+  }
 }

@@ -538,6 +538,20 @@ footer .container .sec p{
    width: 500px;
   }
 }
+@media (max-width: 400px) {
+  nav a {
+    font-size: 9px;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 0.3em;
+    transition: 0.3s;
+  }
+  #logo {
+    width: 30px;
+    transition: 0.3s;
+  }
+}
 @media (max-width: 500px) {
   nav a {
     font-size: 10px;
